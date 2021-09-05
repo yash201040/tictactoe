@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin: 20px;
+  margin: 0;
 }
 
 .menu {
@@ -105,7 +105,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 250px;
+  margin: 0 75px;
   font-size: 50px;
 }
 
