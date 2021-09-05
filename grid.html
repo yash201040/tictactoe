@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="3x3.css" />
+    <script src="TicTacToe.js"></script>
+  </head>
+  <body>
+    <form class="menu" id="menu">
+      ENTER PLAYER NAMES
+      <div class="players">
+        <div class="player" , id="p1">
+          Player-1 (X)
+          <input type="text" class="playername" id="p1name" />
+        </div>
+        <div class="player" , id="p2">
+          Player-2 (O)
+          <input type="text" class="playername" id="p2name" />
+        </div>
+      </div>
+      <button type="button" class="go" id="go">G O !</button>
+    </form>
+    <div class="game" id="game">
+      <div class="scoreboard" id="scoreboard1">
+        <div class="scorelabel" id="p1label">P1</div>
+        <div class="score" id="p1score">0</div>
+      </div>
+      <div class="scoreboard" id="scoreboard2">
+        <div class="scorelabel" id="p2label">P2</div>
+        <div class="score" id="p2score">0</div>
+      </div>
+      <div class="tictactoe" id="ttt">
+        <!-- <div class="grid"> div element made by JS </div> -->
+        <div class="result" id="result"></div>
+        <button class="newgame" id="newgame">New Game</button>
+        <button class="reset" id="reset">RESET SCORES !!</button>
+      </div>
+    </div>
+  </body>
+</html>
